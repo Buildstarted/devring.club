@@ -11,34 +11,23 @@ site is approved add the following html to your site.</p>
 
 <textarea rows=13 cols=140>
 	<div class="devring">
-		<div>
-			<span class="devring-title">devring.club</span>
-		</div>
-		<div>
+		<div class="devring-container">
+			<span class="devring-title"><a href="https://devring.club/">devring.club</a></span>
 			<a href="https://devring.club/site/YOURSITEID/previous" class="devring-previous">Previous</a>
 			<a href="https://devring.club/random" class="devring-random">Random</a>
 			<a href="https://devring.club/sites/YOURSITEID/next" class="devring-next">Next</a>
 		</div>
 	</div>
 </textarea>
-<p>Here are some default styles you could use but I would definitely recommend you supply your own styling to match your site</p>
+<p>Here are some default styles you could use but I would definitely recommend you supply your own styling to match your site. This sample generates a small banner at the top.</p>
 <textarea rows=20 cols=140>
-	.devring {
+	.devring-container {
+		max-width: 1024px; 
+		margin-left: auto; 
+		margin-right: auto; 
+		display: grid; 
+		grid-template-columns: .5fr 1fr 1fr 1fr; 
 		text-align: center;
-	}
-
-	.devring-title {
-		display: block;
-		font-size: 2em;
-		margin-top: 0.67em;
-		margin-bottom: 0.67em;
-		margin-left: 0;
-		margin-right: 0;
-		font-weight: bold;
-	}
-
-	.devring a {
-		margin: 5em;
 	}
 </textarea>
 <div style="text-align: center;">created by buildstarted © 2020</div>

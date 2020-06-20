@@ -1,5 +1,43 @@
 <html>
 <body>
+<div style="width: 50%; margin-left: auto; margin-right: auto;">
 <h1>devring.club</h1>
+<p>Welcome at my small attempt to start a simple webring for developers.</p>
+<p>To get started is simple. Submit a PR with your url added to the file <code>sites.txt</code> at the repository <a href="https://github.com/Buildstarted/devring.club">https://github.com/Buildstarted/devring.club</a> and after your
+site is approved add the following html to your site. Remove the css if you don't want any styling or want to provide your own custom styles.</p>
+
+<textarea rows=30 cols=140>
+	<div class="devring">
+		<style type="text/css">
+			.devring {
+				text-align: center;
+			}
+			
+			.devring-title {
+			    display: block;
+				font-size: 2em;
+				margin-top: 0.67em;
+				margin-bottom: 0.67em;
+				margin-left: 0;
+				margin-right: 0;
+				font-weight: bold;
+			}
+			
+			.devring a {
+				margin: 5em;
+			}
+		</style>
+		<div>
+			<span class="devring-title">devring.club</span>
+		</div>
+		<div>
+			<a href="https://devring.club/site/YOURSITEID/previous" class="devring-previous">Previous</a>
+			<a href="https://devring.club/random" class="devring-random">Random</a>
+			<a href="https://devring.club/sites/YOURSITEID/previous" class="devring-next">Next</a>
+		</div>
+	</div>
+</textarea>
+<div style="text-align: center;">created by buildstarted © 2020</div>
+</div>
 </body>
 </html>

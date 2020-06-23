@@ -1,5 +1,4 @@
-| [devring.club](https://devring.club/) | [previous](https://devring.club/sites/4/prev) | [random](https://devring.club/rand) | 
-[next](https://devring.club/sites/4/next) |
+| [devring.club](https://devring.club/) | [previous](https://devring.club/sites/4/prev) | [random](https://devring.club/rand) | [next](https://devring.club/sites/4/next) |
 | ------------------------------------- | ------------------------------------- | ------------------------------------- | ------------------------------------- |
 
 

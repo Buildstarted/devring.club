@@ -1,5 +1,5 @@
-1. https://linksfor.dev
-2. https://apollopreliminarydrawings.com
-3. https://buildstarted.com
-4. https://github.com/Buildstarted/devring.club/compare
+1. [linksfor.dev(s)](https://linksfor.dev)
+2. [Apollo Preliminary Drawings](https://apollopreliminarydrawings.com)
+3. [Buildstarted Blog](https://buildstarted.com)
+4. [devring.club](https://github.com/Buildstarted/devring.club)
 

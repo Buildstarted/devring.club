@@ -13,7 +13,7 @@ textarea {
 	border-radius: .5rem;
 	width:100%;
 }
-.container {
+main {
 	display: flex;
 	flex-direction: column;
 	max-width: 1024px;
@@ -24,5 +24,17 @@ textarea {
 	color: #050505;
 	font-size: 1.2rem;
 	border-radius: .5rem;
-	padding: 0 4rem 4rem 4rem;
+	padding: 0 4rem 2rem 4rem;
+}
+code {
+	background: #ededed;
+	padding: .25rem;
+	border-radius: .25rem;
+}
+footer {
+	text-align: center;
+	margin-top: 2rem;
+}
+footer a {
+	color: #ccc;
 }

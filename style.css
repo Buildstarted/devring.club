@@ -26,6 +26,10 @@ main {
 	border-radius: .5rem;
 	padding: 0 4rem 2rem 4rem;
 }
+h1 img {
+	margin-right: .5rem;
+	vertical-align: bottom;
+}
 code {
 	background: #ededed;
 	padding: .25rem;

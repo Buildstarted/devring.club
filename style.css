@@ -38,3 +38,174 @@ footer {
 footer a {
 	color: #ccc;
 }
+
+
+.day {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    border: solid 1px #222;
+}
+
+.date {
+    float: right;
+    position: absolute;
+    top: .25em;
+    right: .5em;
+    color: rgba(255, 255, 255, .5);
+}
+
+.day a {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /*            display: table-cell;*/
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.day.subdued a, .month.subdued a {
+    font-weight: normal;
+    opacity: .75;
+}
+
+.month {
+    padding: 1em .5em;
+    text-align: center;
+    position: relative;
+    border: solid 1px #222;
+    min-width: 150px;
+    min-height: 150px;
+    height: 150px;
+}
+
+    .month a {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        /*            display: table-cell;*/
+        text-align: center;
+        vertical-align: middle;
+        justify-content: center;
+        align-items: center;
+    }
+
+.p-1 {
+    padding: 0 1em;
+}
+
+.top-10-col {
+    width: 100%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.top-10-col-33 {
+    width: 100%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.top-10-col-66 {
+    width: 100%;
+    flex: 0 0 66.666666%;
+    max-width: 66.666666%;
+}
+
+.top-10-container {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    overflow: hidden;
+}
+
+.top-10-container-33 {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 33%;
+}
+
+.top-10-header {
+    display: flex;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.top-10-title {
+    flex: 1 1;
+    font-weight: 600;
+}
+
+.top-10-heading {
+    font-weight: 600;
+    text-align: center;
+    width: 100px;
+}
+
+.top-10-body {
+    position: relative;
+    flex: 1 1;
+    overflow: hidden;
+}
+
+.top-10-row {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.top-10-label {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    flex: 2 1;
+}
+
+.top-10-value {
+    width: 50px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.top-10-percent {
+    position: relative;
+    width: 50px;
+    color: #6e6e6e;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.top-10-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    opacity: 1;
+    background: #96b2b3;
+    z-index: -1;
+}
+
+.top-10 {
+    display: flex;
+    flex-flow: row wrap;
+}

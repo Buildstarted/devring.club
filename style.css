@@ -212,5 +212,5 @@ footer a {
 .top-10 {
     display: flex;
     flex-flow: row wrap;
-	border: 1px solid #888;
+	border-top: 1px solid #888;
 }

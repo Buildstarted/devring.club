@@ -2,4 +2,5 @@
 2. [Apollo Preliminary Drawings](https://apollopreliminarydrawings.com)
 3. [Buildstarted Blog](https://buildstarted.com)
 4. [devring.club](https://github.com/Buildstarted/devring.club)
+5. [Seirdy's Home](https://seirdy.one/)
 

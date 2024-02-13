@@ -5,3 +5,5 @@
 Welcome to devring.club! 
 
 This is my attempt to make the web more personable again. If your site is dev related and it's small don't hesitate to add your site to the sites.txt file and join!
+
+Note that I will be limiting the site to 20 outbound links so any requests beyond that will be rejected.
